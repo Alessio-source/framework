@@ -1,0 +1,21 @@
+<?php
+    require_once __DIR__ . "/vendor/autoload.php";
+
+    use Symfony\Component\Console\Application;
+    use Commands\src\serverStart;
+    use Commands\src\controllerCreate;
+    use Commands\src\routesList;
+    use Commands\src\migrateImport;
+    use Commands\src\migrateDelete;
+    use Commands\src\migrateFresh;
+    use Commands\src\cacheClear;
+    
+    $application = new Application();
+    $application->add(new serverStart());
+    $application->add(new controllerCreate());
+    $application->add(new routesList());
+    $application->add(new migrateImport());
+    $application->add(new migrateDelete());
+    $application->add(new migrateFresh());
+    $application->add(new cacheClear());
+    $application->run();

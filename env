@@ -1,0 +1,9 @@
+db_host: db,
+db_port: ,
+db_user: root,
+db_password: root,
+db_database: framework,
+
+author: Alessio Pancia,
+version: 1.0,
+key_env: wlPi0AXcz7LFNsnaFCqhiovvVzDrXE6vKXMyg6YZXTksUE07JA

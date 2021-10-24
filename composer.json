@@ -1,0 +1,13 @@
+{
+    "require": {
+        "eftec/bladeone": "^4.1",
+        "symfony/var-dumper": "^5.3",
+        "symfony/console": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\src\\": "src/Commands",
+            "Framework\\Classes\\": "src/classes"
+        }
+    }
+}
