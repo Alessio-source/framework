@@ -1,1 +1,1 @@
-@dump($variables)
+{{ $description }}

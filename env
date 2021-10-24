@@ -1,7 +1,7 @@
-db_host: db,
+db_host: localhost,
 db_port: ,
 db_user: root,
-db_password: root,
+db_password: alessio01!,
 db_database: framework,
 
 author: Alessio Pancia,

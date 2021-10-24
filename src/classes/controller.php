@@ -34,7 +34,6 @@
         $cache = __DIR__ . '/../../cache';
         
         $blade = new BladeOne($views,$cache);
-        dd($variables);
         if(isset($variables)) {
             $variables["baseUrl"] = $_SERVER['SERVER_NAME'];
             $variables["route"] = $_SERVER['REQUEST_URI'];

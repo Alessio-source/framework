@@ -11,7 +11,6 @@
             $getBlog = $db->query($getBlogSQL);
 
             $secured = securePassword('ciao');
-            
             $verify = verifySecurePassword('prova', $secured);
 
             return view('test', $getBlog);
