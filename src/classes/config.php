@@ -9,7 +9,7 @@
         private $key;
 
         public function __construct() {
-            $env = file_get_contents(__DIR__ . '/../../env');
+            $env = file_get_contents(__DIR__ . '/../../.env');
             $env = explode(',', $env);
             
             foreach ($env as $key => $value) {
@@ -36,7 +36,7 @@
                 $message = PHP_EOL . "key_env: $randomString";
                 file_put_contents(__DIR__ . '/../../env', $message, FILE_APPEND);$randomString;
 
-                $env = file_get_contents(__DIR__ . '/../../env');
+                $env = file_get_contents(__DIR__ . '/../../.env');
                 $env = explode(',', $env);
                 
                 foreach ($env as $key => $value) {
