@@ -1,0 +1,6 @@
+Order deny,allow
+Deny from all
+
+<Files "index.php \.(js|css|png|jpg|svg|jpeg)">
+    Allow from all
+</Files>

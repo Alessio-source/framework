@@ -1,3 +1,4 @@
 env
 vendor
-node_moddules
+node_modules
+.DS_Store

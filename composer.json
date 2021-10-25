@@ -1,4 +1,16 @@
 {
+    "name": "template/framework",
+    "type": "template",
+    "description": "A project template to make creating new (type goes here) projects easier.",
+    "keywords": ["template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessio Pancia",
+            "email": "alessioP2801@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "eftec/bladeone": "^4.1",
         "symfony/var-dumper": "^5.3",
